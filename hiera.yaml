@@ -1,0 +1,12 @@
+---
+version: 5
+defaults:
+  datadir: .
+  data_hash: yaml_data
+
+hierarchy:
+  - name: "per environment"
+    paths:
+    - "environments/%{environment}/%{hostname}.yaml"
+    - "environments/%{environment}/defaults.yaml"
+
