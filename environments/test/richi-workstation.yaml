@@ -1,1 +1,3 @@
-server_roles: testrole
+server_roles: testclient
+
+testclient::message: hello world
