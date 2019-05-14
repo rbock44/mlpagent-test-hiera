@@ -1,5 +1,2 @@
 ---
-classes:
-  - test_role::client
-
-test_profile::client::message: hello world
+#just a dummy for internal tests
