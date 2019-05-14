@@ -1,3 +1,5 @@
-server_roles: testclient
+---
+classes:
+  - test_role::client
 
-testclient::message: hello world
+test_profile::client::message: hello world
